@@ -48,7 +48,7 @@ const formFields = {
 //eslint-disable-next-line
 const AuthProvider = ({ children }: any) => {
   return (
-    <div className="mt-5">
+    <div>
       <Authenticator formFields={formFields}>
         {({ user }) =>
           user ? (
